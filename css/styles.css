@@ -1,4 +1,6 @@
 :root {
+    --logo-accent: #4d5ae5;
+    --logo-secondary: #2e2f42;
   --header-background-color: #ffffff;
   --heroFooter-background-color: #2e2f42;
   --privilageService-background-color: #e5e5e5;
@@ -14,11 +16,17 @@
   --buttons-border: #e7e9fc;
   --portfolioItem-background-color: #ffffff;
   --portfolioItem-border: #e7e9fc;
+  --logo-footer-secondary: #f4f4fd;
+  --body-portfolio-text: #434455;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--privilageService-background-color);
+  background-color: var(--header-background-color)
+}
+
+.body-portfolio {
+    color: var(--body-portfolio-text);
 }
 
 .list {
@@ -43,7 +51,18 @@ body {
 .header-navigation {
 }
 
-.header-logo {
+.logo-accent {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-accent);
+}
+
+.logo-secondary{
+    color: var(--logo-secondary);
 }
 
 .header-list {
@@ -89,12 +108,10 @@ body {
 .hero-title {
   font-family: inherit;
   font-size: 56px;
-  line-height: calc(60 / 56);
+  line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--heroFooter-text-color);
-}
-
-.buttons {
 }
 
 .buttons-list {
@@ -174,7 +191,9 @@ body {
   font-family: inherit;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--title-text-color);
 }
 
@@ -213,11 +232,16 @@ body {
   border: 1px solid var(--portfolioItem-border);
 }
 
+.portfolio-link {
+  
+}
+
 .footer {
   background-color: var(--heroFooter-background-color);
 }
 
-.footer-logo {
+.logo-footer-secondary {
+    color: var(--logo-footer-secondary);
 }
 
 .footer-text {
