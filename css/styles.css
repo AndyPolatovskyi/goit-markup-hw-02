@@ -3,7 +3,7 @@
     --logo-secondary: #2e2f42;
   --header-background-color: #ffffff;
   --heroFooter-background-color: #2e2f42;
-  --privilageService-background-color: #e5e5e5;
+  --privilegeService-background-color: #e5e5e5;
   --team-background-color: #f4f4fd;
   --teamItem-background-color: #ffffff;
   --title-text-color: #2e2f42;
@@ -22,6 +22,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--body-portfolio-text);
   background-color: var(--header-background-color)
 }
 
@@ -160,15 +161,15 @@ body {
   background-color: var(--hover-buttonLink-color);
 }
 
-.privilage {
-  background-color: var(--privilageService-background-color);
+.privilege {
+  background-color: var(--privilegeService-background-color);
 }
-.privilage-list {
+.privilege-list {
 }
 
-.privilage-item {
+.privilege-item {
 }
-.privilage-subtitle,
+.privilege-subtitle,
 .team-subtitle,
 .portfolio-subtitle {
   font-family: inherit;
@@ -178,12 +179,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-.privilage-item-text {
+.privilege-item-text {
   color: var(--primary-text-color);
 }
 
 .services {
-  background-color: var(--privilageService-background-color);
+  background-color: var(--privilegeService-background-color);
 }
 
 .services-title,
@@ -233,7 +234,7 @@ body {
 }
 
 .portfolio-link {
-  
+
 }
 
 .footer {
