@@ -164,6 +164,11 @@ body {
 .privilege {
   background-color: var(--privilegeService-background-color);
 }
+
+.privilege-title {
+  
+}
+
 .privilege-list {
 }
 
