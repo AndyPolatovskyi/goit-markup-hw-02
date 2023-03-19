@@ -162,7 +162,7 @@ body {
 }
 
 .privilege {
-  background-color: var(--privilegeService-background-color);
+  
 }
 
 .privilege-title {
@@ -189,7 +189,7 @@ body {
 }
 
 .services {
-  background-color: var(--privilegeService-background-color);
+  
 }
 
 .services-title,
